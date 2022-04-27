@@ -2,8 +2,11 @@ function preload(){
   // preload assets
 }
 
+let x = [];
+
 function setup() {
   createCanvas(400, 400);
+  x = random(0, 300);
 }
 
 function draw() {
@@ -36,5 +39,8 @@ function draw() {
   fill(220,141,200);
 
   circle(175, 190, 120);
+
+  fill(0);
+  circle(x, 230, 6);
   
 }
