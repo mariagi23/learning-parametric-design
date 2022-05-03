@@ -15,32 +15,32 @@ function draw() {
   // Shape defined just below, will not have any outline
   noStroke(); 
   
-  // Fill light-green color to shape
-  fill('lightgreen'); 
+ // Fill light-green color to shape
+ fill('lightgreen'); 
 
-  rect(0, 0, 350, 400);
+ rect(0, 0, 350, 400);
 
-  fill(255,255,255);
+ fill(255,255,250,);
 
-  rect(25, 40, 300, 300);
+ rect(25, 40, 300, 300);
 
-  fill(255,60,50);
+ fill(255,60,50);
 
-  circle(175, 190, 300);
+ circle(175, 190, 300);
 
-  fill(255,204,0);
+ fill(255,204,0);
 
-  circle(175, 190, 250);
+ circle(175, 190, 250);
 
-  fill(70,60,200);
+ fill(70,60,200);
 
-  circle(175, 190, 200);
+ circle(175, 190, 200);
 
-  fill(220,141,200);
+ fill(220,141,200,);
 
-  circle(175, 190, 120);
+ circle(175, 190, 120,);
 
-  fill(0);
-  circle(x, 230, 6);
-  
+ fill(0);
+ circle(x, 230, 6);
+ 
 }
